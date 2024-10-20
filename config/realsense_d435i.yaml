@@ -1,0 +1,29 @@
+rgb:
+  open: true
+  width: 640
+  height: 480
+  fps: 30
+  intrinsic: [ 500., 0. , 320.,
+               0., 500., 240.,
+               0., 0., 0. ]
+  distortion: [ 0.,0.,0.,0.,0. ]
+
+depth:
+  open: true
+  width: 640
+  height: 480
+  fps: 30
+  intrinsic: [ 500., 0. , 320.,
+               0., 500., 240.,
+               0., 0., 0. ]
+  distortion: [ 0.,0.,0.,0.,0. ]
+
+imu:
+  open: true
+  fps: 100
+
+external:
+  T_left_right: [ 1.,0.,0.,0.,
+                  0.,1.,0.,0.,
+                  0.,0.,1.,0.,
+                  0.,0.,0.,1. ]
